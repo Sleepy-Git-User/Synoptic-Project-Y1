@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home - CMP</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/signupStyle.css">
+    <!-- Link to icons for the page e.g. arrow, social media !-->
+    <script src="https://kit.fontawesome.com/f649f5ce92.js" crossorigin="anonymous"></script>
+    <!-- Google fonts link - gives us the Alata font !-->
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- Header for the website !-->
+<nav>
+    <ul>
+        <li><a href="/"> HOME </a></li>
+        <li><div class="dropdown">
+                <button class="dropbtn"><span> CHAPTERS </span></button>
+                <div class="dropdown-content">
+                    <a href="chapter1"> Chapter One </a>
+                    <a href="chapter2"> Chapter Two </a>
+                    <a href="chapter3"> Chapter Three</a>
+                    <a href="chapter4"> Chapter Four </a>
+                </div>
+            </div>
+        </li>
+        <li><a href="team"> TEAM </a></li>
+        <li><a href="signup" class = "active"> SIGNUP </a></li>
+    </ul>
+</nav>
+
+<main>
+    <!-- Each section is split into a different colour background !-->
+    <div class = "light-green">
+        <!-- Each section of content is in a flexbox for scalability !-->
+        <div class="container">
+            <div class="flex-box">
+                <h2 class="sectionTitle">SIGN UP</h2>
+                <p><br>Keep up to date with all climate change news and information from the CCC by signing up to CMP below. Feel free to leave any comments about the site or any questions that you have about climate change and we'll get back to you!<br><br>
+                    <!-- Contact form !-->
+                <p><br>
+                Thank you for submitting <%-response.fname%>! A confirmation has been sent to your email.</p>
+            </div>
+            <div class="flex-box sectionImage"><img class="sectionImage" alt="" src="../../images/iceberg.png"></div>
+        </div>
+    </div>
+
+</main>
+
+
+<!-- The main footer for the website !-->
+<footer>
+
+    <ul>
+        <!-- Links to social media !-->
+        <li> <u>FOLLOW US:</u> </li>
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a><a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+
+    <ul>
+        <li><a href="/"> HOME </a></li>
+        <li><a href="team"> TEAM </a></li>
+        <li><a href="signup"> SIGNUP </a></li>
+    </ul>
+
+    <ul>
+        <li><a href="chapter1"> CHAPTER ONE </a></li>
+        <li><a href="chapter2"> CHAPTER TWO </a></li>
+        <li><a href="chapter3"> CHAPTER THREE </a></li>
+        <li><a href="chapter4"> CHAPTER FOUR </a></li>
+    </ul>
+</footer>
+
+</body>
+
+</html>
