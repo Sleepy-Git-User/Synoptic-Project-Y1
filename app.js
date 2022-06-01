@@ -30,20 +30,23 @@ app.get("/", function (req, res) {
 app.get("/logIn", function (req, res) {
   res.sendFile(page_directory + "logIn.html");
 });
-app.get("/p2", function (req, res) {
-  res.sendFile(page_directory + "p2.html");
+app.get("/reportJob", function (req, res) {
+  res.sendFile(page_directory + "reportJob.html");
 });
-app.get("/p3", function (req, res) {
-  res.sendFile(page_directory + "p3.html");
+app.get("/howTo", function (req, res) {
+  res.sendFile(page_directory + "howTo.html");
 });
-app.get("/p4", function (req, res) {
-  res.sendFile(page_directory + "p4.html");
+app.get("/findJob", function (req, res) {
+  res.sendFile(page_directory + "findJob.html");
 });
-app.get("/p5", function (req, res) {
-  res.sendFile(page_directory + "p5.html");
+app.get("/Error", function (req, res) {
+  res.sendFile(page_directory + "Error.html");
 });
-app.get("/p6", function (req, res) {
-  res.sendFile(page_directory + "p6.html");
+app.get("/accountInfo", function (req, res) {
+  res.sendFile(page_directory + "accountInfo.html");
+});
+app.get("/aboutUs", function (req, res) {
+  res.sendFile(page_directory + "aboutUs.html");
 });
 app.post("/submit", async function (req, res) {
   //Checks that the submission is populated
