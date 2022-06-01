@@ -1,0 +1,102 @@
+* {
+  font-family: "Alata";
+  margin: 0;
+  padding: 0;
+}
+
+/*---------Header and Footer CSS----------*/
+nav {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  background-color: #357960;
+  color: white;
+  box-shadow: 0px 0px 24px 0px black;
+}
+
+/*The page that the user is currently on is underlined - helps to show position on site*/
+.active {
+  text-decoration: underline;
+}
+
+a {
+  color: white;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+nav ul li a {
+  line-height: 64px;
+  padding: 10px 24px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #92a144;
+  color: white;
+}
+
+a:hover {
+  color: #92a144;
+}
+
+nav h2 {
+  padding: 30%;
+}
+
+/*----- Chapter dropdown menu CSS -----*/
+.dropbtn {
+  font-size: 105%;
+  font-family: inherit;
+  background-color: #357960;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 15%;
+  border: none;
+}
+.dropdown {
+  padding-top: 10%;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  font-family: inherit;
+  display: none;
+  position: absolute;
+  background-color: #357960;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #92a144;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #92a144;
+}
+
+.first {
+  padding-top: 100px;
+}
