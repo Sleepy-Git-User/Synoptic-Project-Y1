@@ -53,50 +53,50 @@ nav h2 {
   padding: 30%;
 }
 
-/*----- Chapter dropdown menu CSS -----*/
-.dropbtn {
-  font-size: 105%;
-  font-family: inherit;
-  background-color: #357960;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  padding: 15%;
-  border: none;
-}
-.dropdown {
-  padding-top: 10%;
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  font-family: inherit;
-  display: none;
-  position: absolute;
-  background-color: #357960;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px black;
-  z-index: 1;
-}
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown-content a:hover {
-  background-color: #92a144;
-}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #92a144;
-}
 
 .first {
-  padding-top: 100px;
+  padding-top: 100px; 
+}
+
+
+
+
+/* flexboxes for storing log-in and create account sections */
+.container{
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-evenly;
+	flex-shrink: 2;
+	flex-grow: 0;
+}
+
+.flex-box{
+	flex-basis: 40%;
+	background-color: #92a144;
+	margin: 1%;
+	border-radius: 50px;
+	gap: 7.5%;
+  padding: 3.5%;
+}
+
+p {
+	display: inline-block;
+	width: 100%
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #0f0fff;
+  /*this is used to centre the buttons in the flex box*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover{
+	background-color: #ffffff;
 }
