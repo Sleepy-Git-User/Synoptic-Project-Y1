@@ -1,5 +1,5 @@
 * {
-  font-family: "Alata";
+  font-family: "Arial";
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,7 @@ nav {
   width: 100%;
   font-weight: bold;
   text-align: center;
-  background-color: #357960;
+  background-color: #4f11df;
   color: white;
   box-shadow: 0px 0px 24px 0px black;
 }
@@ -54,7 +54,6 @@ nav h2 {
 }
 
 
-
 .first {
   padding-top: 100px; 
 }
@@ -73,9 +72,9 @@ nav h2 {
 
 .flex-box{
 	flex-basis: 40%;
-	background-color: #92a144;
+	background-color: teal;
 	margin: 1%;
-	border-radius: 50px;
+	border-radius: 15px;
 	gap: 7.5%;
   padding: 3.5%;
 }
@@ -99,4 +98,13 @@ button {
 
 button:hover{
 	background-color: #ffffff;
+}
+
+
+
+/* General page css */
+.main-content {
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100vw;
 }
